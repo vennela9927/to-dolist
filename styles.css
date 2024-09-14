@@ -1,0 +1,98 @@
+body {
+  background-color: #5b0396;
+  min-height: 70vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-family: "Gochi Hand", cursive;
+  text-align: center;
+  font-size: 130%;
+}
+.header{
+  font-size: 60px;
+ color: aliceblue;
+ margin-top: -300px;
+}
+.container{
+  margin-top: 300px;
+}
+.total{
+  width:100%;
+  max-width: 600px;
+  margin: 100px auto 20px;
+  border-radius: 10px;
+
+}
+.searchedit{
+  margin-left: 30px;
+  height:28px;
+  width: 300px;
+  border-radius: 15px; 
+  outline: none;
+  border: none;
+}
+.edit1{
+  display: flex;
+  color: pink;
+}
+.submit-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4ca3af;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 50px;
+  transition: opacity 0.15s;
+}
+.submit-button:hover {
+  background-color: #4595a0;
+  opacity: 0.5;
+}
+.task-edit{
+  margin-top: 50px;
+  background-color: violet;
+  height: 300px;
+}
+ul li{
+  list-style: none;
+  font-size: 22px;
+  list-style-type: none;    
+  padding-right: 40px;
+  user-select: none;
+  cursor:pointer;
+  position: relative;
+  color: white;
+}
+ul li::before{
+  content: '';
+  position: absolute;
+  height:30px;
+  width:30px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  top: 12px;
+  left: 8px;
+}
+ul li.done{
+  color: #555;
+  text-decoration: line-through;
+}
+ul li span{
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 100px;
+  height:100px;
+  font-size: 22px;
+  color:white;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  right: 10px;
+}
